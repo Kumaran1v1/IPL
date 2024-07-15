@@ -1,0 +1,1514 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.navbar{
+
+}
+
+.navbar .navbar-brand img{
+    height: 50px;
+    width: 150px;
+}
+
+.navbar .nav-link{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover{
+    color: white;
+}
+
+.navbar .form-control{
+   
+}
+
+.navbar .btn {
+    color: white;
+    background-color: rgb(233, 74, 0);
+}
+
+.navbar .btn:hover {
+    color: white;
+    background-color: rgb(73, 211, 9);
+}
+
+/* main */
+
+/* carosel */
+
+#carousel{
+
+}
+
+#carouselExampleAutoplaying  .carosel-img{
+    height: 450px;
+    width: 100%;
+}
+
+#carouselExampleAutoplaying .carosel-img img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+#carouselExampleAutoplaying .carousel-inner .carousel-caption h5{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+background: linear-gradient(0deg,#b300ff, #ff1500);
+background-clip: text;
+color: transparent;
+}
+
+#carouselExampleAutoplaying .carousel-inner .carousel-caption-clr h5{
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+/* ipl teams */
+
+#ipl-teams{
+    background-image: url(../images/bgimg/img-1.jpg);
+}
+
+#ipl-teams .b-img{
+    background-color: #031537;
+    width: 180px;
+    height: 100px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+#ipl-teams .b-img:hover{
+    box-shadow: 0px 0px 10px rgb(122, 119, 119),
+               0px 0px 10px rgb(131, 125, 125);
+    transition: 0.6s;
+  }
+
+#ipl-teams .b-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+} 
+
+/* Magic Moments */
+
+#magic-moments{
+    background-image: url(../images/bgimg/img-3.svg);
+    background-position: right;
+    background-repeat:repeat-y;
+    background-color: rgb(233, 225, 225);
+}
+
+#magic-moments h2{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#magic-moments .card .card-body .card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#magic-moments .card {
+    width: 261px;
+    height: auto;
+    transition: 0.6s;
+}
+
+#magic-moments .card .card-body  p{
+    font-size: 13px;
+}
+
+#magic-moments .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+/* point table */
+
+#points-table{
+    background-image: url(../images/bgimg/img-1.jpg);
+}
+
+#points-table h2{
+   color: white; 
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#points-table .card .card-body .card-img{
+    width: 100px;
+    height: 100px;
+}
+
+#points-table .card .card-body .card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#points-table .card a{
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+}
+
+#points-table .card{
+    /* width: 250px;
+    height: 300px; */
+}
+
+#points-table .card:hover{
+    background: linear-gradient(122deg,#d46eff, #ff5849);
+}
+
+#points-table .card a span{
+    font-size: 12px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
+
+#points-table .card .details{
+
+}
+
+#points-table .card .details .details-list{
+    list-style: none;
+    position: relative;
+    right: 15px;
+}
+
+#points-table .card .details .details-list-points{
+    list-style: none;
+    position: relative;
+    right: 13px;
+    bottom: 10px;
+    
+}
+
+#points-table .card .details .details-list li h6{
+    font-weight: bold;
+    color: rgb(85, 0, 255);
+   
+}
+
+#points-table .card .details .details-list-points li h6{
+    font-weight: bold;
+    color: green;
+   
+}
+
+#points-table .card .recent-form h6 {
+    font-weight: bold;
+    
+}
+
+#points-table .card  .recent-form .win-rate {
+    list-style: none;
+    padding-left: 5px;
+}
+
+#points-table .card  .recent-form ul li {
+    font-weight: bold;
+    color: green;
+    padding-left: 10px;
+
+}
+
+
+#points-table .card .card-body .h1{
+ 
+}
+
+/* top-performers */
+
+#top-performers{
+    background-color: rgb(233, 225, 225);
+    overflow-x: hidden;
+}
+
+#top-performers h1{
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#top-performers .orange-cap-info{
+    background-image: url(../images/bgimg/img-3.svg);
+}
+
+#top-performers .purple h3{
+    font-weight: bold;
+    color: purple;
+}
+
+#top-performers .orange h3{
+    font-weight: bold;
+    color: orangered;
+}
+
+
+#top-performers .orange-cap{
+    width: 350px;
+    height: 350px;   
+}
+
+#top-performers .orange-cap img{
+    width: 100%;
+    height: 100%;   
+}
+
+#top-performers .details-list{
+    list-style: none;
+}
+
+#top-performers .details h1{
+    font-size: 150px;
+}
+
+#top-performers .details-list-points {
+    list-style: none;
+}
+
+#top-performers .purple-cap-info{
+    background-image: url(../images/bgimg/img-3.svg);
+}
+
+#top-performers .purple-cap{
+    width: 350px;
+    height: 350px;   
+}
+
+#top-performers .purple-cap img{
+    width: 100%;
+    height: 100%;   
+}
+
+
+#top-performers .orange-cap-details .name{
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+#top-performers .orange-cap-details .run{
+    font-weight: bold;
+    font-style: italic;
+    color: #ff1500;
+}
+
+#top-performers .orange-cap-details .details-list h6{
+    font-weight: bold;
+}
+
+#top-performers .orange-cap-details .details-list-points h6{
+    font-weight: bold;
+    color: green;
+}
+
+#top-performers .purple-cap-details h2{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#top-performers .purple-cap-details h5{
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}
+
+#top-performers .purple-cap-details .details-list h6{
+    font-weight: bold;
+}
+
+#top-performers .purple-cap-details .details-list-points  h6{
+    font-weight: bold;
+    color: green;
+}
+
+/* 2024 in numbers */
+
+#In-Numbers{
+    background-color: rgb(233, 225, 225);
+}
+
+#In-Numbers h1{
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#In-Numbers .boundary{
+    background: linear-gradient(58.2deg, #0038ff -.03%, #1abcfe 100.03%);
+    border-radius: 10px; 
+    height: 200px;
+
+}
+#In-Numbers .row>* {
+
+    padding-right:0px; 
+    padding-left:0px;
+}
+
+#In-Numbers .champions{
+    border-radius: 10px; 
+    background-color: #8400ff;  
+}
+
+
+#In-Numbers .champions  img{
+    width: 100%;
+    height:200px;
+    border-radius: 10px;
+}
+#In-Numbers .champions {
+   position: relative;
+    
+}
+#In-Numbers .champions  .owl-dots{
+   position: absolute;
+   bottom: 0px;
+   left: 45%;
+    
+}
+
+#In-Numbers .runs{
+    background: linear-gradient(58.2deg, #0038ff -.03%, #1abcfe 100.03%);
+    border-radius: 10px;
+    height: 200px;
+}
+
+#In-Numbers .best-play{
+    background-color: rgb(107, 196, 6);
+    border-radius: 10px;
+}
+
+#In-Numbers .awards{
+    background-color: rgb(255, 51, 0);
+    border-radius: 10px;
+}
+
+#In-Numbers .best-play .best-play-orange-cap{
+    background-image:url(../images/records/orange-cap-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#In-Numbers .best-play .best-play-orange-cap .orange-img{
+    width: 100px;
+    height: 40px;
+}
+
+#In-Numbers .best-play .best-play-orange-cap .orange-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#In-Numbers .best-play{
+    position: relative;
+}
+
+#In-Numbers .best-play .owl-dots{
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+
+#In-Numbers .best-play .best-play-purple-cap{
+    background-image:url(../images/records/purple-cap-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#In-Numbers .best-play .best-play-purple-cap .purple-img{
+    width: 100px;
+    height: 40px;
+}
+
+#In-Numbers .best-play .best-play-purple-cap .purple-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#In-Numbers  .awards{
+    position: relative;
+}
+
+#In-Numbers  .awards .owl-dots{
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+
+#In-Numbers  .awards .awards-upstox{
+    background-image: url(../images/records/upstox-cap-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#In-Numbers  .awards .awards-upstox .upstox-img{
+    width: 80px;
+    height: 40px;
+}
+
+#In-Numbers  .awards .awards-upstox .upstox-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#In-Numbers  .awards .awards-paytm{
+    background-image: url(../images/records/paytm-cap-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#In-Numbers  .awards .awards-paytm .paytm-img{
+    width: 80px;
+    height: 40px;
+}
+
+#In-Numbers  .awards .awards-paytm .paytm-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#In-Numbers h5 {
+    font-weight: bold;
+    color: white;
+}
+
+#In-Numbers table td {
+    font-weight: bold;
+    color: white;
+}
+
+/* ipl app */
+
+#ipl-app{
+    background-image: url(../images/ipl-app/official-bg.png);
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+#ipl-app h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ipl-app .ipl-app-info{
+    text-align: justify;
+    font-size: 18px;
+    font-weight:500;
+}
+
+#ipl-app .app-img{
+    width: 500px;
+    height: 400px;
+}
+
+#ipl-app .store {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ipl-app .app-img img{
+    width: 100%;
+    height: 100%;
+}
+/* pre-footer */
+
+#pre-footer{
+    background-color: #081e40;
+}
+
+#pre-footer .item .sponser-img{
+  
+}
+
+#pre-footer .item .sponser-img img{
+
+}
+
+/* post footer */
+
+#post-footer{
+    background-image: url(../images/bgimg/foooter-bg.png);
+    background-color: #212529;
+}
+
+#post-footer h5{
+    font-weight: bold;
+    color: white;
+}
+
+#post-footer ul{
+    list-style: none;
+}
+
+#post-footer ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#post-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+/* footer bottam */
+
+#footer-bottam{
+    background-color: black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+  }
+  .copyright{ 
+  
+  }
+  .credits{
+   color: white;
+  }
+  
+  .footer-bottom .copyright{
+    color: white;
+  }
+  
+  .credits a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .credits a:hover{
+    color: #00bfff;
+    font-weight: bold;
+  }
+
+/* ---team---  */
+
+#teams{
+    background-image: url(../images/teams/bg/teams-new-landing-bg\ \(1\).jpg);
+    
+}
+
+#teams .teams-img{
+    width: 200px;
+    height: 100px;
+}
+
+#teams .teams-img img{
+    width: 100%;
+    height: 100%;
+}
+/* CSK */
+#teams .overall .team-csk-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-csk-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-csk-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-csk-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-csk-layer-2{
+    background-color: rgb(59, 54, 54);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-csk-layer-2-curve{
+    background-color: rgb(255, 251, 0);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-csk-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-csk-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* DC */
+
+#teams .overall .team-dc-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-dc-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-dc-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-dc-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-dc-layer-2{
+    background-color: rgb(27, 8, 114);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-dc-layer-2-curve{
+    background-color: rgb(204, 25, 25);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-dc-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-dc-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* GT */
+
+#teams .overall .team-gt-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-gt-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-gt-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-gt-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-gt-layer-2{
+    background-color: rgb(38, 37, 41);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-gt-layer-2-curve{
+    background-color: rgb(110, 202, 255);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-gt-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-gt-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* kkr */
+
+#teams .overall .team-kkr-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-kkr-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-kkr-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-kkr-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-kkr-layer-2{
+    background-color: rgb(51, 0, 94);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-kkr-layer-2-curve{
+    background-color: rgb(240, 226, 37);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-kkr-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-kkr-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* lsg */
+
+#teams .overall .team-lsg-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-lsg-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-lsg-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-lsg-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-lsg-layer-2{
+    background-color: rgb(28, 0, 112);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-lsg-layer-2-curve{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-lsg-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-lsg-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* mi */
+
+#teams .overall .team-mi-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-mi-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-mi-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-mi-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-mi-layer-2{
+    background-color: rgb(3, 47, 73);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-mi-layer-2-curve{
+    background-color: rgb(0, 128, 202);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-mi-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-mi-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* pk */
+
+#teams .overall .team-pk-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-pk-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-pk-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-pk-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-pk-layer-2{
+    background-color: rgb(49, 0, 197);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-pk-layer-2-curve{
+    background-color: rgb(182, 6, 6);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-pk-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-pk-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* rcb */
+
+#teams .overall .team-rcb-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-rcb-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-rcb-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-rcb-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-rcb-layer-2{
+    background-color: rgb(141, 28, 28);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-rcb-layer-2-curve{
+    background-color: rgb(33, 34, 34);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-rcb-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-rcb-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* rr */
+
+#teams .overall .team-rr-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-rr-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-rr-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-rr-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-rr-layer-2{
+    background-color: rgb(69, 36, 167);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-rr-layer-2-curve{
+    background-color: rgb(255, 47, 186);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-rr-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-rr-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+
+/* srh */
+
+#teams .overall .team-srh-layer-1{
+    background-color: rgb(196, 196, 196);
+    height: 260px;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#teams .overall .team-srh-layer-1-curve{
+    background-color: rgb(235, 235, 235);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+}
+
+#teams .overall .team-srh-layer-1-curve h4{
+    font-weight: bold;
+    color: black;
+}
+
+#teams .overall .team-srh-layer-1 h6{
+    font-weight: bold;
+    color: black;
+}
+
+
+#teams .overall .team-srh-layer-2{
+    background-color: rgb(172, 0, 0);
+    height: 260px;
+    width: 270px;
+}
+
+#teams .overall .team-srh-layer-2-curve{
+    background-color:rgb(255, 72, 0);
+    height: 80%;
+    width: 270px;
+    border-radius : 0px 0px 120px 120px;
+    
+}
+
+#teams .overall .team-srh-layer-2 h5{
+    color: white;
+    font-weight: bold;
+}
+
+#teams .overall{
+    position: relative;
+    z-index: 99999;
+}
+
+
+#teams .overall:hover{
+    .team-srh-layer-1{
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+/* team CSK */
+
+#brand-info {
+    background-image: url(../images/teams/team-players/bgs-icons/team-squad-bg.svg);
+}
+
+
+#brand-info .brand{
+
+}
+
+#brand-info .brand h2{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#brand-info .trophy-info h5{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#brand-info .brand .team-site a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: red;
+    padding: 3px 5px 3px 5px;
+    
+}
+
+#brand-info .csk-info table tr .clr {
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+}
+
+#brand-info .csk-info table tr td {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2px;
+}
+
+/* batters */
+
+#all-im-one{
+    background-image: url(../images/teams/team-players/bgs-icons/bottom-section-bg.svg);
+    background-color: rgb(238, 238, 238);
+}
+
+#Batters{
+
+}
+
+#Batters .bt-overall-info{
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+#Batters .bt-overall-info:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#Batters .bt-overall-info .player-img{
+    width: 200px;
+    height: 200px;
+}
+
+#Batters .bt-overall-info .player-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#Batters h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#Batters .player-info h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#Batters .player-info p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* all rounders */
+
+#All-Rounders .bt-overall-info{
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+#All-Rounders .bt-overall-info:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#All-Rounders .bt-overall-info .player-img{
+    width: 200px;
+    height: 200px;
+}
+
+#All-Rounders .bt-overall-info .player-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#All-Rounders h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#All-Rounders .player-info h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#All-Rounders .player-info p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* bowler */
+
+#Bowlers .bt-overall-info{
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+#Bowlers .bt-overall-info:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#Bowlers .bt-overall-info .player-img{
+    width: 200px;
+    height: 200px;
+}
+
+#Bowlers .bt-overall-info .player-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#Bowlers h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#Bowlers .player-info h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+#Bowlers .player-info p{
+    font-weight: bold;
+    font-style: italic;
+}
+/* media query */
+
+@media(max-width:430px){
+
+    #ipl-teams .b-img {
+      width: 160px;
+  }
+  }
+  @media(max-width:375px){
+  
+    #ipl-teams .b-img {
+      width: 140px;
+  }
+  }
+  @media(max-width:280px){
+  
+    #ipl-teams .b-img {
+      width: 100px;
+  }
+  }
+
+
+
+/* Small devices (sm) */
+@media only screen and (max-width: 600px) {
+
+    #carouselExampleAutoplaying  .carosel-img{
+        height: auto;
+        width: 100%;
+    }
+
+    
+  
+  }
+  
+  /* Medium devices (md) */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    /* Styles for medium devices */
+  }
+  
+  /* Large devices (lg) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Styles for large devices */
+  }
+  
+  /* Extra-large devices (xl) */
+  @media only screen and (min-width: 993px) {
+    /* Styles for extra-large devices */
+  }
+  
